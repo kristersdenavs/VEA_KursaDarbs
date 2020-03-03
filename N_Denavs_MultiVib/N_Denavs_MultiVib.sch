@@ -1,0 +1,207 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Multivibrators"
+Date "2020-02-26"
+Rev "1"
+Comp "Kristers Denavs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery BT?
+U 1 1 5E64450D
+P 4750 3650
+F 0 "BT?" H 4858 3696 50  0000 L CNN
+F 1 "9V" H 4858 3605 50  0000 L CNN
+F 2 "" V 4750 3710 50  0001 C CNN
+F 3 "~" V 4750 3710 50  0001 C CNN
+	1    4750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E6452F0
+P 5600 3200
+F 0 "D?" V 5650 3350 50  0000 R CNN
+F 1 "LED" V 5550 3400 50  0000 R CNN
+F 2 "" H 5600 3200 50  0001 C CNN
+F 3 "~" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E645C1E
+P 6650 3200
+F 0 "D?" V 6689 3083 50  0000 R CNN
+F 1 "LED" V 6598 3083 50  0000 R CNN
+F 2 "" H 6650 3200 50  0001 C CNN
+F 3 "~" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E645E89
+P 5600 3650
+F 0 "R?" H 5450 3700 50  0000 L CNN
+F 1 "470R" H 5350 3600 50  0000 L CNN
+F 2 "" H 5600 3650 50  0001 C CNN
+F 3 "~" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E646474
+P 6650 3650
+F 0 "R?" H 6709 3696 50  0000 L CNN
+F 1 "470R" H 6700 3600 50  0000 L CNN
+F 2 "" H 6650 3650 50  0001 C CNN
+F 3 "~" H 6650 3650 50  0001 C CNN
+	1    6650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E6468E9
+P 6350 3650
+F 0 "R?" H 6200 3700 50  0000 L CNN
+F 1 "47k" H 6150 3600 50  0000 L CNN
+F 2 "" H 6350 3650 50  0001 C CNN
+F 3 "~" H 6350 3650 50  0001 C CNN
+	1    6350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E64789B
+P 5900 3650
+F 0 "R?" H 5959 3696 50  0000 L CNN
+F 1 "47k" H 5959 3605 50  0000 L CNN
+F 2 "" H 5900 3650 50  0001 C CNN
+F 3 "~" H 5900 3650 50  0001 C CNN
+	1    5900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 5E647E7F
+P 5700 4400
+F 0 "Q?" H 5891 4446 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 5891 4355 50  0000 L CNN
+F 2 "" H 5900 4500 50  0001 C CNN
+F 3 "~" H 5700 4400 50  0001 C CNN
+	1    5700 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 5E648EEF
+P 6550 4450
+F 0 "Q?" H 6741 4496 50  0000 L CNN
+F 1 "Q_NPN_CBE" H 6741 4405 50  0000 L CNN
+F 2 "" H 6750 4550 50  0001 C CNN
+F 3 "~" H 6550 4450 50  0001 C CNN
+	1    6550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 5E64A2C8
+P 5750 4000
+F 0 "C?" V 5850 4000 50  0000 C CNN
+F 1 "47uF" V 5650 4000 50  0000 C CNN
+F 2 "" H 5750 4000 50  0001 C CNN
+F 3 "~" H 5750 4000 50  0001 C CNN
+	1    5750 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 5E64B4DA
+P 6500 4000
+F 0 "C?" V 6400 4000 50  0000 C CNN
+F 1 "47uF" V 6600 4000 50  0000 C CNN
+F 2 "" H 6500 4000 50  0001 C CNN
+F 3 "~" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3450 4750 3000
+Wire Wire Line
+	4750 3000 5600 3000
+Wire Wire Line
+	6650 3350 6650 3550
+Wire Wire Line
+	6350 3550 6350 3000
+Wire Wire Line
+	5900 3550 5900 3000
+Wire Wire Line
+	5600 3350 5600 3550
+Wire Wire Line
+	5600 3750 5600 4000
+Wire Wire Line
+	5900 3750 5900 4000
+Wire Wire Line
+	6350 3750 6350 4000
+Wire Wire Line
+	6350 4400 6350 4000
+Wire Wire Line
+	6350 4000 6400 4000
+Wire Wire Line
+	4750 3850 4750 4700
+Wire Wire Line
+	5600 4600 5600 4700
+Connection ~ 6350 3000
+Connection ~ 6350 4000
+Connection ~ 5900 3000
+Wire Wire Line
+	5900 3000 6350 3000
+Wire Wire Line
+	5900 4000 5850 4000
+Wire Wire Line
+	6600 4000 6650 4000
+Wire Wire Line
+	6650 4000 6650 3750
+Wire Wire Line
+	6650 3050 6650 3000
+Wire Wire Line
+	6350 3000 6650 3000
+Connection ~ 5600 4700
+Wire Wire Line
+	5600 4700 4750 4700
+Wire Wire Line
+	5900 4400 6350 4400
+Wire Wire Line
+	5600 4200 5600 4000
+Wire Wire Line
+	5600 4000 5650 4000
+Connection ~ 5600 4000
+Wire Wire Line
+	5600 3000 5600 3050
+Connection ~ 5600 3000
+Wire Wire Line
+	5600 3000 5900 3000
+Wire Wire Line
+	5950 4450 5950 4000
+Wire Wire Line
+	5950 4000 5900 4000
+Connection ~ 5900 4000
+Wire Wire Line
+	5950 4450 6350 4450
+Wire Wire Line
+	6650 4700 6650 4650
+Wire Wire Line
+	5600 4700 6650 4700
+Wire Wire Line
+	6650 4250 6650 4000
+Connection ~ 6650 4000
+$EndSCHEMATC
