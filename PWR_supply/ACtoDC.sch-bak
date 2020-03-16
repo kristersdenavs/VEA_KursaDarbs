@@ -1,0 +1,129 @@
+EESchema Schematic File Version 4
+LIBS:PWR_supply-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E6893D4
+P 3150 2900
+F 0 "J2" H 3068 2575 50  0000 C CNN
+F 1 "Conn_01x02" H 3068 2666 50  0000 C CNN
+F 2 "" H 3150 2900 50  0001 C CNN
+F 3 "~" H 3150 2900 50  0001 C CNN
+	1    3150 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Transformer_1P_1S T1
+U 1 1 5E689F69
+P 4150 2850
+F 0 "T1" H 4150 3231 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 4150 3140 50  0000 C CNN
+F 2 "" H 4150 2850 50  0001 C CNN
+F 3 "~" H 4150 2850 50  0001 C CNN
+	1    4150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2800 3600 2650
+Wire Wire Line
+	3600 2650 3750 2650
+Wire Wire Line
+	3600 2900 3600 3050
+Wire Wire Line
+	3600 3050 3750 3050
+Wire Wire Line
+	3350 2800 3600 2800
+Wire Wire Line
+	3600 2900 3350 2900
+$Comp
+L Device:D_Bridge_+-AA D1
+U 1 1 5E68B6B3
+P 5300 2850
+F 0 "D1" H 5644 2896 50  0000 L CNN
+F 1 "FB_RECT" H 5500 2700 50  0000 L CNN
+F 2 "" H 5300 2850 50  0001 C CNN
+F 3 "~" H 5300 2850 50  0001 C CNN
+	1    5300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2650 4600 2650
+Wire Wire Line
+	4600 2650 4600 2550
+Wire Wire Line
+	4600 2550 5300 2550
+Wire Wire Line
+	5300 3150 4600 3150
+Wire Wire Line
+	4600 3150 4600 3050
+Wire Wire Line
+	4600 3050 4550 3050
+$Comp
+L Device:CP1 C1
+U 1 1 5E68D368
+P 6150 3100
+F 0 "C1" H 6265 3146 50  0000 L CNN
+F 1 "470uF 50v" H 6265 3055 50  0000 L CNN
+F 2 "" H 6150 3100 50  0001 C CNN
+F 3 "~" H 6150 3100 50  0001 C CNN
+	1    6150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2850 6150 2850
+Wire Wire Line
+	6150 2850 6150 2950
+Wire Wire Line
+	5000 2850 4950 2850
+Wire Wire Line
+	4950 2850 4950 3300
+Wire Wire Line
+	4950 3300 6150 3300
+Wire Wire Line
+	6150 3300 6150 3250
+Text HLabel 6700 2850 2    50   Input ~ 0
+Vcc
+Text HLabel 6700 3300 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6150 2850 6700 2850
+Connection ~ 6150 2850
+Wire Wire Line
+	6700 3300 6150 3300
+Connection ~ 6150 3300
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E71903D
+P 6150 2850
+F 0 "#FLG0101" H 6150 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 3023 50  0000 C CNN
+F 2 "" H 6150 2850 50  0001 C CNN
+F 3 "~" H 6150 2850 50  0001 C CNN
+	1    6150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E725377
+P 6150 3300
+F 0 "#FLG?" H 6150 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 3473 50  0000 C CNN
+F 2 "" H 6150 3300 50  0001 C CNN
+F 3 "~" H 6150 3300 50  0001 C CNN
+	1    6150 3300
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
