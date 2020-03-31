@@ -1,0 +1,54 @@
+EESchema Schematic File Version 4
+LIBS:Battery-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5E7B0C05
+P 4650 3450
+F 0 "BT1" H 4768 3546 50  0000 L CNN
+F 1 "Battery_Cell" H 4768 3455 50  0000 L CNN
+F 2 "Battery_Holder:SMTU2032" V 4650 3510 50  0001 C CNN
+F 3 "~" V 4650 3510 50  0001 C CNN
+	1    4650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5E7B11A4
+P 4650 3100
+F 0 "#PWR01" H 4650 2950 50  0001 C CNN
+F 1 "VCC" H 4667 3273 50  0000 C CNN
+F 2 "" H 4650 3100 50  0001 C CNN
+F 3 "" H 4650 3100 50  0001 C CNN
+	1    4650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E7B176D
+P 4650 3700
+F 0 "#PWR02" H 4650 3450 50  0001 C CNN
+F 1 "GND" H 4655 3527 50  0000 C CNN
+F 2 "" H 4650 3700 50  0001 C CNN
+F 3 "" H 4650 3700 50  0001 C CNN
+	1    4650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3700 4650 3550
+Wire Wire Line
+	4650 3250 4650 3100
+$EndSCHEMATC
