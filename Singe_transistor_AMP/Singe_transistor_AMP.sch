@@ -20,7 +20,7 @@ U 1 1 5DC0023D
 P 4550 3600
 F 0 "C1" V 4779 3600 50  0000 C CNN
 F 1 "10uF" V 4688 3600 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4550 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4550 3600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1700589.pdf" H 4550 3600 50  0001 C CNN
 	1    4550 3600
 	0    -1   -1   0   
@@ -61,7 +61,7 @@ U 1 1 5DC28E4B
 P 5400 3350
 F 0 "C3" V 5629 3350 50  0000 C CNN
 F 1 "10uF" V 5538 3350 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5400 3350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 3350 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1700589.pdf" H 5400 3350 50  0001 C CNN
 	1    5400 3350
 	0    -1   -1   0   
@@ -83,7 +83,7 @@ U 1 1 5DC15F78
 P 4750 3350
 F 0 "R1" H 4809 3396 50  0000 L CNN
 F 1 "39k" H 4809 3305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" H 4750 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4750 3350 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2049325.pdf" H 4750 3350 50  0001 C CNN
 	1    4750 3350
 	1    0    0    -1  
@@ -94,7 +94,7 @@ U 1 1 5DC3915C
 P 4750 3850
 F 0 "R2" H 4809 3896 50  0000 L CNN
 F 1 "10k" H 4809 3805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" H 4750 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4750 3850 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2049325.pdf" H 4750 3850 50  0001 C CNN
 	1    4750 3850
 	1    0    0    -1  
@@ -112,7 +112,7 @@ U 1 1 5DC43F44
 P 5050 4050
 F 0 "R4" H 5150 4000 50  0000 L CNN
 F 1 "560" H 5150 4100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" H 5050 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5050 4050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2049325.pdf" H 5050 4050 50  0001 C CNN
 	1    5050 4050
 	1    0    0    -1  
@@ -145,7 +145,7 @@ U 1 1 5DC40F72
 P 5050 3100
 F 0 "R3" H 5100 3150 50  0000 L CNN
 F 1 "1.8k" H 5100 3050 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" H 5050 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5050 3100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2049325.pdf" H 5050 3100 50  0001 C CNN
 	1    5050 3100
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-update=07.04.2020 22:47:06
+update=21.04.2020 17:32:09
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=Singe_transistor_AMP.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -197,21 +197,21 @@ Name=B.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Adhes]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.Paste]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Paste]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.SilkS]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.SilkS]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.Mask]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Mask]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Dwgs.User]
 Enabled=0
 [pcbnew/Layer.Cmts.User]
@@ -229,9 +229,9 @@ Enabled=1
 [pcbnew/Layer.F.CrtYd]
 Enabled=1
 [pcbnew/Layer.B.Fab]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Fab]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Rescue]
 Enabled=0
 [pcbnew/Netclasses]
@@ -249,7 +249,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
 Clearance=0.2
-TrackWidth=0.5
+TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
