@@ -193,10 +193,6 @@ Wire Wire Line
 	4850 1700 5000 1700
 Entry Wire Line
 	4750 2850 4850 2750
-Wire Bus Line
-	3100 2850 3100 4100
-Wire Bus Line
-	3100 2850 9250 2850
 Wire Wire Line
 	4850 2750 4850 1700
 Text Label 7850 1700 0    50   ~ 0
@@ -211,4 +207,8 @@ Text Label 4950 1800 2    50   ~ 0
 GND
 Text Label 3200 1800 0    50   ~ 0
 GND
+Wire Bus Line
+	3100 2850 3100 4100
+Wire Bus Line
+	3100 2850 9250 2850
 $EndSCHEMATC

@@ -126,4 +126,8 @@ F 3 "~" H 6150 3300 50  0001 C CNN
 	1    6150 3300
 	-1   0    0    1   
 $EndComp
+Text Notes 4650 2500 0    50   ~ 0
+Max 40 V\n
+Text Notes 4050 3150 0    50   ~ 0
+10:1
 $EndSCHEMATC
